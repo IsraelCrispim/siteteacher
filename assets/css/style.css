@@ -20,7 +20,7 @@
    * light theme colors 
    */
 
- --background-primary: hsl(316, 100%, 50%);
+  --background-primary: hsl(0, 0%, 100%);
   --background-secondary: hsl(0, 0%, 97%);
 
   --action-primary: hsl(214, 32%, 91%);
