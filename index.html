@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo-light.svg" alt="SimpleBlog logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="SimpleBlog logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Sobre</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contato</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Sobre</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contato</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Tópicos</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Acessibilidade</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Bem Vindo ao <b>Teacher&nbsp;Web</b>.
+            <br>Seu Blog Tec
+          </h1>
+
+          <p class="h3">
+            Aqui o mundo <abbr title="Accessibility">TEC</abbr>
+            as novidades estão aqui!
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">DevOps</a>
+            <a href="#" class="btn btn-secondary">Tecnologia</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/img.png" alt="Julia Walker" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Última postagem do blog</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/iphone.jpg" alt="iphone 16 "
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Tecnologia</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Apple confirma data de evento que revelará iPhone 16
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  A Apple anunciou, nesta segunda-feira (26), a data do próximo evento de lançamento 
+                  da marca. O iPhone 16 deverá ser o grande destaque do chamado “It’s Glowtime”, 
+                  que será realizada em 9 de setembro, às 14h (horário de Brasília).
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia Walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">26/08/2024 às 14:22</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">1 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/xiaomi.jpg" alt="xiaomi tec" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Technologia</button>
+
+                <h3><a href="" class="h3">Xiaomi trabalha em smartphone sem botões físicos para lançar em 2025</a></h3>
+
+                <p class="blog-text">
+                  A fabricante chinesa Xiaomi está desenvolvendo um novo smartphone ousado em visual
+                   e funcionamento. O seu principal atrativo, segundo os rumores, é a ausência completa 
+                   de botões físicos no corpo do aparelho.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">27/08/2024 às 10:15</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/facebook.jpg" alt="facebook sec" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Tecnologia</button>
+
+                <h3><a href="" class="h3">Como descobrir se o seu Facebook foi hackeado?</a></h3>
+
+                <p class="blog-text">
+                  Você anda desconfiado de que sua conta no Facebook foi hackeada? 
+                  Problemas ao fazer o login, envio ou recebimento de mensagens suspeitas e 
+                  publicações desconhecidas no seu perfil são alguns dos indícios desse 
+                  problema.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">27/08/2024 às 09:15</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/policial .jpg" alt="policial anatel"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Policial</button>
+
+                <h3><a href="" class="h3">Polícia Federal prende suspeitas que levavam selos da Anatel para a China</a></h3>
+
+                <p class="blog-text">
+                  A Polícia Federal prendeu cinco pessoas que embarcavam para a China pelo Aeroporto 
+                  Internacional de São Paulo, em Guarulhos. As suspeitas tinham na bagagem um pacote 
+                  de selos da Agência Nacional de Telecomunicações (Anatel).
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">N27/08/2024 às 08:30</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/cybersec.jpg"
+                  alt="cybersec" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">CYBERSEC</button>
+
+                <h3><a href="" class="h3">Cibercrime: ransomware Qilin usa novo método para roubar credenciais no Chrome</a></h3>
+
+                <p class="blog-text">
+                  O grupo de ransomware Qilin está usando uma nova tática para roubar dados armazenados
+                   no Google Chrome, o que pode marcar uma mudança significativa no mundo do 
+                   cibercrime, segundo a Sophos na quinta-feira (22). 
+                   Pesquisadores da empresa monitoraram a campanha maliciosa ao longo de 18 dias.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">26/08/2024 às 18:01</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">8 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/blog-6.png"
+                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Acessibilidade</button>
+
+                <h3><a href="" class="h3">Não desenvolva apenas para você - uma lista de verificação de acessibilidade do desenvolvedor</a>
+                </h3>
+
+                <p class="blog-text">
+                  Nós, como desenvolvedores, tendemos a desenvolver sites inconscientemente para pessoas 
+                  como nós. 
+                  Se não o fizermos ativamente prestar atenção os sites são muit
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">27/08/2024 às 08:01</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/26134345160231.webp"
+                  alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Tecnologia</button>
+
+                <h3><a href="" class="h3">Meta planeja lançar versão barata do headset Meta Quest 3, diz analista</a></h3>
+
+                <p class="blog-text">
+                  A Meta desenvolve uma versão mais barata do óculos de realidade virtual Meta Quest 3, 
+                  aponta o jornalista da Bloomberg, Mark Gurman. O novo modelo, chamado Meta Quest 3S, 
+                  deve ser anunciado em setembro deste ano.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">26/08/2024 às 19:30</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/telegram.webp" alt="Monitoring Performance with the PageSpeed Insights API"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Tecnologia</button>
+
+                <h3><a href="" class="h3">10 notícias de tecnologia para você começar o da (27/08)</a></h3>
+
+                <p class="blog-text">
+                  Bom dia! Separamos as principais notícias do mundo da Ciência e 
+                  Tecnologia para você saber tudo o que aconteceu na última segunda-feira (26). 
+                  Para conferir cada notícia na íntegra, basta clicar nos links a seguir.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">27/08/2024 às 06:00</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/sec.jpg" alt="The best web accessibility tools for developers in 2021"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Cybersec</button>
+
+                <h3><a href="" class="h3">Hacker que roubou 3 bilhões de dados dos EUA foi descoberto e é brasileiro</a>
+                </h3>
+
+                <p class="blog-text">
+                  A principal notícia de cibersegurança nos Estados Unidos em agosto envolve 
+                  o vazamento de 2,7 bilhões de números de segurança social, registro similar ao CPF. 
+                  O grupo cibercriminoso que reivindicou o ataque é o USDoD, conhecido por também 
+                  invadir diversas empresas ao redor do mundo. Agora, 
+                  uma investigação aponta o possível líder do grupo: ele se chama Luan e seria brasileiro.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-13">27/08/2024 às 11:00</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/wiki.jpg"
+                  alt="How to connect a React frontend with a NodeJS/Express backend" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Tecnologia</button>
+
+                <h3><a href="" class="h3">Como a Wikipédia é atualizada pela comunidade em tempos de ChatGPT?</a></h3>
+
+                <p class="blog-text">
+                  Os textos gerados por chatbots de inteligência artificial (IA) não estão cada vez mais 
+                  frequentes só em serviços como blogs e redes sociais. A Wikipédia, mais popular 
+                  enciclopédia da internet, também tem se deparado cada vez mais com textos feitos 
+                  no serviço.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/author.png" alt="Julia walker" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Julia Walker</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-21">12/08/2024 às 17:00</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Ler mais...</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Tópicos</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Acessibilidades</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#cybersec</button>
+              <button class="hashtag">#tec</button>
+              <button class="hashtag">#policial</button>
+              <button class="hashtag">#devs</button>
+              <button class="hashtag">#devops</button>
+              <button class="hashtag">#webperf</button>
+              <button class="hashtag">#optimize</button>
+              <button class="hashtag">#performance</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Vamos conversar</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Quer saber mais sobre como posso ajudar sua empresa a superar problemas? 
+                Vamos ter um conversação.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Boletim informativo</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Assine nossa newsletter para estar entre os primeiros a acompanhar as últimas atualizações.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="./assets/images/logo-light.svg" alt="SimpleBlog Logo" width="150" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="SimpleBlog Logo" width="150" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Saiba mais sobre acessibilidade da Web, 
+          desempenho da Web e gerenciamento de banco de dados.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Links Rápidos</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Anuncie aqui</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sobre nós</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contatos</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Coisas legais</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Aviso de Privacidade</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Política de Cookies</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Termos de Uso</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 <a href="#">Teacher Web</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
